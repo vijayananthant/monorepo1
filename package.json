@@ -1,0 +1,32 @@
+{
+  "name": "monorepo1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.1.11",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "lerna": "^3.16.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "webpack": "^4.39.2"
+  },
+  "scripts": {
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d dist/lib --ignore **/*.story.js,**/*.spec.js ",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "dev": "start-storybook -p 5555",
+    "del": "lerna exec -- rm -rf ./node_modules",
+    "rel": "lerna publish --contents dist"
+  },
+  "dependencies": {
+    "raf": "^3.4.1"
+  }
+}

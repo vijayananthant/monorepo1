@@ -1,0 +1,7 @@
+.log
+.DS_Store
+.jest-*
+node_modules
+yarn-error.log
+npm-offline-cache
+dist
