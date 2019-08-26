@@ -24,7 +24,7 @@
     "bootstrap": "lerna bootstrap --use-workspaces",
     "dev": "start-storybook -p 5555",
     "del": "lerna exec -- rm -rf ./node_modules",
-    "ver": "lerna version patch --yes",
+    "ver": "lerna version major --yes",
     "rel": "lerna publish from-package --yes --contents dist"
   },
   "dependencies": {
