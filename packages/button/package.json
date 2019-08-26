@@ -1,10 +1,10 @@
 {
     "name": "button19",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "main": "lib/index.js",
     "module": "src/index.js",
     "dependencies": {
-        "input19": "0.5.1",
+        "input19": "^0.5.2",
         "lodash": "*",
         "react": "16.8.5",
         "react-dom": "16.8.5",
