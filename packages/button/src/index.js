@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+const inp = require("input12");
 const Button = styled.button`
     background: red;
     color: #fff;
@@ -14,5 +14,6 @@ export default Button;
 
 
 export function showButton() {
+    inp.showInput();
     console.log("showbutton12");
 }
