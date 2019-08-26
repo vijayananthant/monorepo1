@@ -15,5 +15,5 @@ export default Button;
 
 export function showButton() {
     inp.showInput();
-    console.log("showbutton123");
+    console.log("showbutton12");
 }

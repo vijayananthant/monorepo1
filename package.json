@@ -25,9 +25,10 @@
     "dev": "start-storybook -p 5555",
     "del": "lerna exec -- rm -rf ./node_modules",
     "ver": "lerna version major --yes",
-    "rel": "lerna publish from-package --yes --contents dist"
+    "rel": "lerna publish from-package --yes --contents dist --registry http://10.61.81.209:4873"
   },
   "dependencies": {
-    "raf": "^3.4.1"
+    "raf": "^3.4.1",
+    "rimraf": "^3.0.0"
   }
 }

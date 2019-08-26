@@ -14,5 +14,5 @@ export default Input;
 
 
 export function showInput() {
-    console.log("showInput1");
+    console.log("showInput12");
 }
