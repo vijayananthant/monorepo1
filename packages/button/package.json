@@ -1,10 +1,10 @@
 {
     "name": "button19",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "lib/index.js",
     "module": "src/index.js",
     "dependencies": {
-        "input19": "^0.5.2",
+        "input19": "^0.5.3",
         "lodash": "*",
         "react": "16.8.5",
         "react-dom": "16.8.5",
@@ -18,5 +18,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "e32c2d3a0779503667a6905912b584e50b7c43ff"
+    "gitHead": "ff46b534642b9399324ba644920b4775e574dcb3"
 }
