@@ -1,6 +1,6 @@
 {
     "name": "button19",
-    "version": "0.5.3",
+    "version": "1.0.0",
     "main": "lib/index.js",
     "module": "src/index.js",
     "dependencies": {
