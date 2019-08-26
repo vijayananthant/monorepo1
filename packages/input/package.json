@@ -1,5 +1,5 @@
 {
-    "name": "@test/input19",
+    "name": "input19",
     "version": "0.3.10",
     "main": "lib/index.js",
     "module": "src/index.js",
@@ -16,5 +16,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "ee8809305e896e823d530bc0ffd4454eea832906"
+    "gitHead": "9e019649cb0b23d20a76d0a1e61537a0e0ce3f77"
 }
